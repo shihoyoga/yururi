@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="大阪でただひとつの村・千早赤阪村の古民家でひらく、足つぼ・経絡とオンライン シータヒーリングのちいさな自宅サロン「ゆるり」。はじめての方も大歓迎です。">
+<meta name="robots" content="noindex">
+<meta name="description" content="【デモ用の架空サイト】うさとあそ部の講義で作成。大阪でただひとつの村・千早赤阪村の古民家でひらく、足つぼ・経絡とオンライン シータヒーリングのちいさな自宅サロン「ゆるり」。はじめての方も大歓迎です。">
 <meta property="og:title" content="古民家サロン ゆるり｜千早赤阪村">
-<meta property="og:description" content="金剛山のふもとの古民家で、足つぼ・経絡とオンラインのシータヒーリング。はじめてさん大歓迎。">
+<meta property="og:description" content="【デモ用の架空サイト】金剛山のふもとの古民家で、足つぼ・経絡とオンラインのシータヒーリング。はじめてさん大歓迎。">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#FBF6F2">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 84 46'%3E%3Cpath d='M4 34q7-7 13 0t13 0l12-15 12 15q6 7 13 0t13 0' fill='none' stroke='%234E4542' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M60 4a7 7 0 1 0 7 9a5.4 5.4 0 1 1-7-9Z' fill='%23C97A72'/%3E%3C/svg%3E">
@@ -76,6 +77,16 @@ p{margin:0}
 .ln-soft{fill:none;stroke:var(--ink-soft);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .draw{stroke-dasharray:1;animation:draw 2.6s cubic-bezier(.4,.1,.2,1) both}
 @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+
+/* ---------- demo notice ---------- */
+.demo-bar{background:var(--ink);color:var(--bg);font-size:.86rem;line-height:1.6;position:relative;z-index:55}
+.demo-bar .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 14px;padding-block:10px;text-align:center}
+.demo-bar b{display:inline-block;background:var(--rose);color:#fff;font-family:var(--f-hand);font-size:1.05rem;letter-spacing:.04em;padding:0 10px;border-radius:999px;margin-right:6px}
+.demo-bar a{color:var(--bg);font-weight:700;text-underline-offset:3px;white-space:nowrap}
+.demo-bar a:hover{color:var(--rose)}
+.demo-card{max-width:640px;background:color-mix(in srgb,#fff 14%,transparent);border:1.5px dashed currentColor;border-radius:24px;padding:18px 22px;font-size:.88rem;line-height:1.8;text-align:center}
+.demo-card b{font-family:var(--f-hand);font-size:1.3rem;display:block;line-height:1.2}
+.demo-card a{color:inherit;font-weight:700;text-underline-offset:3px}
 
 /* ---------- header ---------- */
 .hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px dashed transparent;transition:border-color .3s}
@@ -391,6 +402,13 @@ textarea{min-height:96px;resize:vertical}
     <symbol id="spark" viewBox="0 0 40 40"><path d="M20 2Q22 18 38 20 22 22 20 38 18 22 2 20 18 18 20 2Z" fill="var(--rose)"/></symbol>
   </defs>
 </svg>
+
+<div class="demo-bar" role="note">
+  <div class="wrap">
+    <span><b>DEMO</b>このサイトは「うさとあそ部」の講義内でサクッと作った、デモ用の<strong>架空のサロンサイト</strong>です。お店・料金・口コミはすべて実在しません。</span>
+    <a href="https://usatoasobu.kitone.life/" target="_blank" rel="noopener">うさとあそ部はこちら →</a>
+  </div>
+</div>
 
 <header class="hd" id="hd">
   <div class="wrap hd-in">
@@ -913,6 +931,7 @@ textarea{min-height:96px;resize:vertical}
     <span class="ft-logo"><svg viewBox="0 0 150 72" aria-hidden="true"><path filter="url(#rough)" d="M8 54q12-12 23 0t23 0l21-26 21 26q11 12 23 0t23 0" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M108 8a12 12 0 1 0 12 16a9.5 9.5 0 1 1-12-16Z" fill="currentColor"/></svg><b>ゆるり</b><i>relax &amp; healing salon</i></span>
     <span class="thanks-hand">thank you for visiting ♡</span>
     <nav aria-label="フッターメニュー"><a href="#about">About</a><a href="#menu">Menu</a><a href="#voice">Voice</a><a href="#faq">Q&amp;A</a><a href="#reserve">Reserve</a></nav>
+    <div class="demo-card" role="note"><b>this is a demo ♡</b>このサイトは「うさとあそ部」の講義内でつくった、デモ用の架空のサロンサイトです。<br>実在のお店ではないので、予約やお問い合わせはできません。<br><a href="https://usatoasobu.kitone.life/" target="_blank" rel="noopener">うさとあそ部のサイトを見る →</a></div>
     <small>施術は医療行為ではありません。治療中の方は主治医にご相談ください。</small>
     <small>© 2026 古民家サロン ゆるり</small>
   </div>
@@ -1020,7 +1039,7 @@ textarea{min-height:96px;resize:vertical}
     if(!name.value.trim()){ thanks.hidden = false; thanks.textContent = 'お名前（ニックネームでも大丈夫）を入れてください。'; name.focus(); return; }
     if(!contact.value.trim()){ thanks.hidden = false; thanks.textContent = 'お返事を送る先（メールかLINE ID）を入れてください。'; contact.focus(); return; }
     thanks.hidden = false;
-    thanks.textContent = name.value.trim() + 'さん、ありがとうございます！これはデザイン見本のフォームなので、まだ送信はされません。公開するときに予約システムやLINEとつなぎます。';
+    thanks.textContent = name.value.trim() + 'さん、ありがとうございます！このサイトは「うさとあそ部」の講義でつくったデモ用の架空のサロンなので、送信はされません。';
   });
 })();
 </script>
